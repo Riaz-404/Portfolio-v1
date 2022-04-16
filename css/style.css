@@ -234,7 +234,7 @@ section {
     margin: 15px 0px 35px 25px;
 }
 
-.skill h3, .projects h3 {
+.skill h3, .projects h3, .contact h3 {
     color: var(--text-color);
     font-size: 30px;
     font-weight: 300;
@@ -374,4 +374,44 @@ section {
     position: relative;
     top: -150px;
 }
+
+.contact{
+    position: relative;
+    top: -100px;
+}
+
+.contact-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact .contact-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contact-img img{
+    height: 400px;
+}
+
+.contact .contact-form form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-form form label{
+    padding: 10px 0;
+}
+
+.contact .contact-form form input, .contact .contact-form form textarea{
+    padding: 10px 0;
+}
+
+.contact .contact-form form button{
+    margin: 10px 0;
+}
+
+
 
