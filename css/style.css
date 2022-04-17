@@ -11,6 +11,7 @@
 
 :root {
     --bg-color: #0b090a;
+    --footer-color: #080808;
     --main-color: #ba181b;
     --2nd-main-color: #d3d3d3;
     --text-color: #fff;
@@ -39,6 +40,8 @@ header {
     padding: 24px 14%;
     transition: .3s;
 }
+
+
 
 .logo {
     color: var(--text-color);
@@ -411,6 +414,70 @@ section {
 
 .contact .contact-form form button{
     margin: 10px 0;
+}
+
+footer{
+    background-color: var(--footer-color);
+    padding: 20px 200px 0 200px;
+}
+
+footer a:visited{
+    color: var(--text-color);
+}
+
+footer h3 {
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    margin: 0 0 10px;
+}
+
+.footer-main .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-main .row .col-3 iframe{
+    height: 300px;
+    width: 500px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.footer-bottom span{
+    color: var(--main-color)
+}
+
+.footer-main .col-1 li{
+    padding: 10px 0;
+}
+
+.footer-main .col-2 li{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+.footer-main .col-2 a img{
+    height: 30px;
+}
+
+.footer-main .col-2 a{
+    display: flex;
+    align-items: center;
+}
+
+.footer-main .col-2 p{
+    padding-left: 10px;
 }
 
 
