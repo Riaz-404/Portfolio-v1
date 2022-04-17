@@ -24,7 +24,7 @@
 
 ::-webkit-scrollbar {
     width: 12px;
-    background-color: #111222;
+    background-color: #0b090a;
 }
 
 ::-webkit-scrollbar-corner {
@@ -35,7 +35,7 @@
 ::-webkit-scrollbar-track {
     /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
     border-radius: 10px;
-    background-color: #111222;
+    background-color: #0b090a;
 }
 
 /* Handle */
@@ -317,59 +317,201 @@ section {
 
 .skill .react {
     width: 85%;
+    animation: react 3s;
+}
+
+@keyframes react{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
 }
 
 .skill .javascript {
     width: 70%;
+    animation: javascript 3s;
+}
+
+@keyframes javascript{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
 }
 
 .skill .html {
     width: 95%;
+    animation: html 3s;
+}
+
+@keyframes html{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 95%;
+    }
 }
 
 .skill .css {
     width: 75%;
+    animation: css 3s;
+}
+
+@keyframes css{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
 }
 
 .skill .mongodb {
     width: 70%;
+    animation: mongodb 3s;
+}
+
+@keyframes mongodb{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
 }
 
 .skill .firebase {
     width: 60%;
+    animation: firebase 3s;
+}
+
+@keyframes firebase{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
 }
 
 .skill .nextjs {
     width: 20%;
+    animation: nextjs 3s;
+}
+
+@keyframes nextjs{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 20%;
+    }
 }
 
 .skill .c {
     width: 90%;
+    animation: c 3s;
+}
+
+@keyframes c{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
 }
 
 .skill .python {
     width: 60%;
+    animation: python 3s;
+}
+
+@keyframes python{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
 }
 
 .skill .bootstrap {
     width: 70%;
+    animation: bootstrap 3s;
+}
+
+@keyframes bootstrap{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
 }
 
 .skill .tailwind {
     width: 65%;
+    animation: tailwind 3s;
+}
+
+@keyframes tailwind{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
 }
 
 .skill .mui {
     width: 65%;
+    animation: mui 3s;
+}
+
+@keyframes mui{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
 }
 
 .skill .node {
     width: 60%;
+    animation: node 3s;
+}
+
+@keyframes node{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
 }
 
 .skill .mysql {
     width: 30%;
+    animation: mysql 3s;
 }
+
+@keyframes mysql{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+
 
 .projects .container {
     padding: 25px;
