@@ -12,7 +12,7 @@
 :root {
     --bg-color: #0b090a;
     --footer-color: #080808;
-    --main-color: #ba181b;
+    --main-color: rgb(186, 24, 27);
     --2nd-main-color: #d3d3d3;
     --text-color: #fff;
     --big-font: 3rem;
@@ -230,14 +230,17 @@ section {
     padding-top: 20px;
 }
 
-.skill .col-1{
+.skill .col-1 {
     margin: 15px 25px 35px 0px;
 }
-.skill .col-2{
+
+.skill .col-2 {
     margin: 15px 0px 35px 25px;
 }
 
-.skill h3, .projects h3, .contact h3 {
+.skill h3,
+.projects h3,
+.contact h3 {
     color: var(--text-color);
     font-size: 30px;
     font-weight: 300;
@@ -250,7 +253,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.skill .skill-detail{
+.skill .skill-detail {
     margin-top: 20px;
 }
 
@@ -264,8 +267,8 @@ section {
     margin: 5px 0 5px 0;
 }
 
-.skill .bottom{
-    margin: 15px 0px 15px 0px ;
+.skill .bottom {
+    margin: 15px 0px 15px 0px;
 }
 
 .skill .container {
@@ -298,134 +301,149 @@ section {
 .skill .css {
     width: 75%;
 }
+
 .skill .mongodb {
     width: 70%;
 }
+
 .skill .firebase {
     width: 60%;
 }
+
 .skill .nextjs {
     width: 20%;
 }
+
 .skill .c {
     width: 90%;
 }
+
 .skill .python {
     width: 60%;
 }
+
 .skill .bootstrap {
     width: 70%;
 }
+
 .skill .tailwind {
     width: 65%;
 }
+
 .skill .mui {
     width: 65%;
 }
+
 .skill .node {
     width: 60%;
 }
+
 .skill .mysql {
     width: 30%;
 }
 
-.projects .container{
+.projects .container {
     padding: 25px;
 }
 
-.projects .row{
+.projects .row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+
 }
 
-.projects .row img{
+.projects .row img {
     height: 250px;
 }
 
-.projects .row .col-1{
+.projects .row .col-1 {
     justify-items: left;
 }
 
-.projects .row .col-2{
+.projects .row .col-2 {
     display: grid;
     justify-items: right;
 }
 
-.projects .row .col-2 h4{
+
+.projects .row .col-2 h4 {
     padding: 10px 0;
 }
 
-.projects .row-2 .col-1, .projects .row-3 .col-2{
+.projects .row-2 .col-1,
+.projects .row-3 .col-2 {
     position: relative;
     top: -50px;
 }
 
-.projects .row .col-1 h4{
+.projects .row .col-1 h4 {
     padding: 10px 0;
 }
 
-.projects .row-4 .col-1{
+.projects .row-4 .col-1 {
     position: relative;
     top: -100px;
 }
-.projects .row-5 .col-2{
+
+.projects .row-5 .col-2 {
     position: relative;
     top: -100px;
 }
-.projects .row-6 .col-1{
+
+.projects .row-6 .col-1 {
     position: relative;
     top: -150px;
 }
 
-.contact{
+.contact {
     position: relative;
     top: -100px;
 }
 
-.contact-main{
+.contact-main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.contact .contact-img{
+.contact .contact-img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contact .contact-img img{
+.contact .contact-img img {
     height: 400px;
 }
 
-.contact .contact-form form{
+.contact .contact-form form {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.contact .contact-form form label{
+.contact .contact-form form label {
     padding: 10px 0;
 }
 
-.contact .contact-form form input, .contact .contact-form form textarea{
+.contact .contact-form form input,
+.contact .contact-form form textarea {
     padding: 10px 0;
 }
 
-.contact .contact-form form button{
+.contact .contact-form form button {
     margin: 10px 0;
 }
 
-footer{
+footer {
     background-color: var(--footer-color);
     padding: 20px 200px 0 200px;
 }
 
-footer a{
+footer a {
     color: var(--text-color);
 }
 
-footer a:visited{
+footer a:visited {
     color: var(--text-color);
 }
 
@@ -437,12 +455,12 @@ footer h3 {
     margin: 0 0 10px;
 }
 
-.footer-main .row{
+.footer-main .row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.footer-main .row .col-3 iframe{
+.footer-main .row .col-3 iframe {
     height: 300px;
     width: 500px;
 }
@@ -454,15 +472,15 @@ footer h3 {
     padding-bottom: 2px;
 }
 
-.footer-bottom span{
+.footer-bottom span {
     color: var(--main-color)
 }
 
-.footer-main .col-1 li{
+.footer-main .col-1 li {
     padding: 10px 0;
 }
 
-.footer-main .col-2 li{
+.footer-main .col-2 li {
     padding: 5px;
     display: flex;
     align-items: center;
@@ -471,18 +489,141 @@ footer h3 {
 
 
 
-.footer-main .col-2 a img{
+.footer-main .col-2 a img {
     height: 30px;
 }
 
-.footer-main .col-2 a{
+.footer-main .col-2 a {
     display: flex;
     align-items: center;
 }
 
-.footer-main .col-2 p{
+.footer-main .col-2 p {
     padding-left: 10px;
 }
 
 
+.project {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.projects .row .project {
+    background-size: cover;
+    width: 440px;
+    height: 250px;
+    justify-items: right;
+    
+}
+
+
+.btnoverlap {
+    background: var(--main-color);
+    color: var(--text-color);
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.btnoverlap:hover {
+    background: var(--text-color);
+    color: var(--main-color);
+    transition: ease all .3s;
+}
+
+.mydivoverlap {
+    position: relative;
+    z-index: 1;
+}
+
+.buttonoverlap {
+    z-index: 2;
+    display: none;
+}
+
+
+.project:hover .buttonoverlap {
+    display: block;
+    cursor: pointer;
+}
+
+.projects .row-1 .col-2 .project {
+    background-image: url("../img/auto-car-shop.png");
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.projects .row-1 .col-2 .project:hover  {
+    background-color: rgba(247, 244, 244, 0.6);;
+    background-blend-mode: lighten;
+}
+
+.projects .row-2 .col-1 .project {
+    background-image: url("../img/fpl.png");
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.projects .row-2 .col-1 .project:hover  {
+    background-color: rgb(11, 11, 11, 0.6);
+    background-blend-mode: darken;
+}
+
+.projects .row-3 .col-2 .project {
+    background-image: url("../img/hungry-monster.png");
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.projects .row-3 .col-2 .project:hover  {
+    background-color: rgb(11, 11, 11, 0.6);
+    background-blend-mode: darken;
+}
+
+.projects .row-4 .col-1 .project {
+    background-image: url("../img/team-tracker.png");
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.projects .row-4 .col-1 .project:hover  {
+    background-color: rgb(11, 11, 11, 0.6);
+    background-blend-mode: darken;
+}
+
+.projects .row-5 .col-2 .project {
+    background-image: url("../img/panguin-fashion.png");
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.projects .row-5 .col-2 .project:hover  {
+    background-color: rgb(11, 11, 11, 0.6);
+    background-blend-mode: darken;
+}
+
+.projects .row-6 .col-1 .project {
+    background-image: url("../img/banking-system.png");
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.projects .row-6 .col-1 .project:hover  {
+    background-color: rgba(247, 244, 244, 0.6);;
+    background-blend-mode: lighten;
+}
