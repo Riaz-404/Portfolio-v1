@@ -23,6 +23,7 @@ sr.reveal('.home-text', { delay: 200, origin: 'top' });
 sr.reveal('.home-img', { delay: 400, origin: 'top' });
 sr.reveal('.about', { delay: 200, origin: 'top' });
 sr.reveal('.education', { delay: 200, origin: 'left' });
+sr.reveal('.education .row .col-3', { delay: 200, origin: 'right' });
 sr.reveal('.skill', { delay: 200, origin: 'left' });
 sr.reveal('.projects-text, .contact-text', { delay: 200, origin: 'left' });
 sr.reveal('.project', { delay: 300, origin: 'top' });
